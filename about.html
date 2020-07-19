@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UFT-8">
+  <title>Jake's Introduction</title>
+  <link href="styles1.css" rel="stylesheet">  
+</head>
+<body>
+  <div id="menu">
+    <a href="index.html">HOME</a>
+    <a href="about.html"><b>ABOUT</b></a>
+    <a href="career.html">CAREER</a>
+    <a href="education.html">EDUCATION</a>
+</div>
+
+  <h1>"30살 늦깎이 서버 개발자"</h1>
+
+  <div class="dayAndNight">    
+
+    <input id = "night_day" type="button" value="어두운 테마" onclick = 
+    
+        "if (document.querySelector('#night_day').value === '어두운 테마') {
+            document.querySelector('body').style.backgroundColor = '#A9A9A9';
+            document.querySelector('body').style.Color = 'white';
+            document.querySelector('#night_day').value = '밝은 테마';
+        } else {
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.Color = '#A9A9A9';
+            document.querySelector('#night_day').value = '어두운 테마';   
+    } 
+    ">
+    </div>
+
+  <div class="aboutMe">
+    <h2><strong>"안녕하세요. 늦은 나이지만 훌륭한 개발자가 되고 싶은 홍성은입니다."</strong></h2>
+    <p>졸업 후 공연장, 공유오피스 등에서 근무하며 서비스업에 종사했습니다. 제가 줄 수 있는 무언가를 통해 
+      많은 사람들이 조금 더 편함과 행복을 누리기를 바라는 일을 하고 싶었습니다. 그러나 단순 서비스업에서 그러한 일을 하기는 한계가 명확했습니다.
+      공유오피스에서 단순 업무를 반복하던 중 개발에 관하여 알게 되었고, 프로그래밍을 통해 <strong>업무와 서비스를 자동화 시킴으로서 많은 사람들이 조금 더 편리하게 
+      서비스에 접근하고 시간을 가치있게 사용하는 것을 발견</strong>했습니다. 이 후 본격적으로 프로그래밍 공부를 시작하게 되었습니다. 
+      아직 많이 부족하지만 늦은 만큼 더 열심히 하겠습니다. 
+    </p>
+  </div>
+  <div id="clickButton">
+    <a href="mailto:hongse21@gmail.com">gmail</a>
+    <a href="https://velog.io/@devjakeh">velog</a>
+    <a href="https://github.com/jake-hong">github</a>
+  </div>
+</body>
+</html>

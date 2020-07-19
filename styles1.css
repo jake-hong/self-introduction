@@ -1,0 +1,88 @@
+h1{
+  margin-top: 60px;
+  text-align: center;
+}
+
+#roadTolife{
+  background-color: #eeeeee;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding: 60px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 200%;
+  text-align: center; 
+}
+
+.resume{
+  background-color: #eeeeee;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding: 60px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 100%;
+  text-align: center; 
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.aboutMe{
+    background-color: #eeeeee;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 60px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 200%;
+}
+
+.dayAndNight{
+ margin-top: 60px;
+ margin-bottom: 20px;
+ text-align: center; 
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#menu{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  
+}
+
+#menu a{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #58595b;
+  text-decoration: none;
+  font-family: Helvetica,Arial,Sans-Serif;
+  
+}
+
+#clickButton{
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black
+ }
